@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will you be my Valentine? 💕</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Floating hearts background animation -->
+    <div class="hearts-container">
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+    </div>
+
+    <div class="container">
+        <!-- Initial Proposal Section -->
+        <div id="proposalSection" class="proposal-section">
+            <div class="gif-container">
+                <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3R2eW1lbDh0NGgwd3ludWthZXM5aXQ1ZTQ5eXhhZXhhZHk0ZWF0byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hWHV2aiE0jOiKBBddV/giphy.gif" alt="Cute bear" class="main-gif">
+            </div>
+            
+            <h1 class="question-text">Will you be my Valentine?</h1>
+            
+            <div class="button-container">
+                <button id="yesBtn" class="btn yes-btn">
+                    YES
+                </button>
+                <button id="noBtn" class="btn no-btn">
+                    NO
+                </button>
+            </div>
+        </div>
+
+        <!-- Celebration Section (hidden initially) -->
+        <div id="celebrationSection" class="celebration-section hidden">
+            <div class="gif-container celebration-gif-container">
+                <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" alt="Celebration" class="main-gif">
+            </div>
+            
+            <h1 class="celebration-title">Yay! You said YES! 💕</h1>
+            <p class="celebration-message">
+                I'm so happy! You've made me the luckiest person in the world! 
+                Get ready for the most amazing Valentine's Day ever! 🌹✨
+            </p>
+            
+            <div class="love-message">
+                <p>I promise to make every moment special 💖</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Canvas Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
